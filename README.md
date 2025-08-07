@@ -1,4 +1,4 @@
-# DrogonServiceTemplate
+# DrogonWebSocketTemplate
 
 # Hướng dẫn cài đặt
 
@@ -9,13 +9,13 @@ Chạy `cmd` và thực hiện các bước sau:
 ### Bước 1: Clone repo
 
 ```sh
-git clone https://github.com/phsang198/DrogonServiceTemplate.git
+git clone https://github.com/phsang198/DrogonWebSocketTemplate.git
 ```
 
 ### Bước 2: Di chuyển vào thư mục repo
 
 ```sh
-cd /d DrogonServiceTemplate
+cd /d DrogonWebSocketTemplate
 ```
 
 ### Bước 3: Thay thế tên service mặc định
@@ -60,14 +60,14 @@ Dùng phần mềm hỗ trợ cấu hình thư viện tại:
 
 ### Bước 3: Cài service bằng file `installService.bat`
 
-Chạy file `installService.bat` trong SolutionDir `DrogonServiceTemplate/X64/Release` với quyền **Administrator**
+Chạy file `installService.bat` trong SolutionDir `DrogonWebSocketTemplate/X64/Release` với quyền **Administrator**
 
 ### Bước 4: Kiểm tra API mẫu
 
 Mở trình duyệt hoặc dùng công cụ như Postman:
 
 ```
-GET http://0.0.0.0:8765/root/v1/resource
+GET ws://0.0.0.0:8765/chat?
 ```
 
 ---
